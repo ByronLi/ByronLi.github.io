@@ -505,7 +505,7 @@
   max-height: 100%; }
 
 #envirabox-loading, .envirabox-close, .envirabox-prev span, .envirabox-next span {
-  background-image: url("/wp-content/plugins/envira-gallery-lite/assets/css/images/envirabox_sprite.png"); }
+  background-image: url("images/envirabox_sprite.png"); }
 
 #envirabox-loading {
   position: fixed;
@@ -521,7 +521,7 @@
 #envirabox-loading div {
   width: 44px;
   height: 44px;
-  background: url("/wp-content/plugins/envira-gallery-lite/assets/css/images/envirabox_loading.gif") center center no-repeat; }
+  background: url("images/envirabox_loading.gif") center center no-repeat; }
 
 .envirabox-close {
   position: absolute;
@@ -539,7 +539,7 @@
   height: 100%;
   cursor: pointer;
   text-decoration: none;
-  background: transparent url("/wp-content/plugins/envira-gallery-lite/assets/css/images/blank.gif");
+  background: transparent url("images/blank.gif");
   /* helps IE */
   -webkit-tap-highlight-color: transparent;
   z-index: 988040; }
@@ -612,7 +612,7 @@ a.envirabox-nav:hover {
   overflow: hidden;
   display: none;
   z-index: 988010;
-  background: url("/wp-content/plugins/envira-gallery-lite/assets/css/images/envirabox_overlay.png"); }
+  background: url("images/envirabox_overlay.png"); }
 
 .envirabox-overlay-fixed {
   position: fixed;
@@ -738,7 +738,7 @@ a.envirabox-nav:hover {
   height: 30px;
   text-indent: -9999px;
   background-color: transparent;
-  background-image: url("/wp-content/plugins/envira-gallery-lite/assets/css/images/envirabox_buttons.png");
+  background-image: url("images/envirabox_buttons.png");
   background-repeat: no-repeat;
   outline: none;
   opacity: 0.8; }
@@ -839,22 +839,22 @@ a.envirabox-nav:hover {
 /* Retina stuff */
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   #envirabox-loading, .envirabox-close, .envirabox-prev span, .envirabox-next span {
-    background-image: url("/wp-content/plugins/envira-gallery-lite/assets/css/images/envirabox_sprite@2x.png");
+    background-image: url("images/envirabox_sprite@2x.png");
     background-size: 44px 152px; }
 
   #envirabox-loading div {
-    background-image: url("/wp-content/plugins/envira-gallery-lite/assets/css/images/envirabox_loading@2x.gif");
+    background-image: url("images/envirabox_loading@2x.gif");
     background-size: 24px 24px; } }
 /*
 #content img{
     height: 0;
     width: 0;
     padding: 35px 120px; // adjust that depend on your image size
-    background-image: url('/wp-content/plugins/envira-gallery-lite/assets/css/YOUR_IMAGE_PATH');
+    background-image: url('YOUR_IMAGE_PATH');
     background-repeat: no-repeat;
 }*/
 /*.envira-gallery-public a.envira-gallery-link {
-  background-image: url("/wp-content/plugins/envira-gallery-lite/assets/images/placeholders/spinner.gif");
+  background-image: url("../images/placeholders/spinner.gif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 25%;
