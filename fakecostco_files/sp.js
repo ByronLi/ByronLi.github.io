@@ -1,0 +1,1 @@
+(function(b,c,d,a,e){a=b.createElement(c);a.type="text/java"+c;a.async=!0;a.src=d;e=b.getElementsByTagName(c)[0];e.parentNode.insertBefore(a,e)}(document,"script","//a.sellpoint.net/w/83/spworld.min.js?cv="+Math.floor(Date.now() / 3600000)));
